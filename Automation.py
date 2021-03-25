@@ -11,13 +11,13 @@ def login(driver):
     username = driver.find_element_by_id("username") 
   
     # Sending the keys for username      
-    username.send_keys("7490876006")
+    username.send_keys("your-id")
   
     # Getting the password element                                  
     password = driver.find_element_by_id("password")
   
     # Sending the keys for password    
-    password.send_keys("@HP1001hp@")      
+    password.send_keys("your-password")      
   
     # Getting the tag for submit button                     
     driver.find_element_by_class_name("login__form_action_container").click()         
